@@ -1,0 +1,243 @@
+INFO:niftynet:2017-12-20 18:32:43,515: starting segmentation application
+INFO:niftynet:2017-12-20 18:32:43,515: [promise12] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2017-12-20 18:32:43,525: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2017-12-20 18:32:43,528: 
+Number of subjects 1, input section names: ['subject_id', u'promise12', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2017-12-20 18:32:43,565: Image reader: loading [image] from (u'promise12',) (1)
+INFO:niftynet:2017-12-20 18:32:43,584: normalisation histogram reference models ready for image:(u'promise12',)
+INFO:niftynet:2017-12-20 18:32:43,584: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2017-12-20 18:32:43,590: reading size of preprocessed images
+INFO:niftynet:2017-12-20 18:32:43,613: initialised window instance
+INFO:niftynet:2017-12-20 18:32:43,613: buffering with 8 windows
+INFO:niftynet:2017-12-20 18:32:43,620: initialised sampler output {'image': (104, 104, 80, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2017-12-20 18:32:43,730: Filling queues (this can take a few minutes)
+INFO:niftynet:2017-12-20 18:32:43,730: Starting preprocessing threads...
+INFO:niftynet:2017-12-20 18:32:43,730: New thread: 0
+INFO:niftynet:2017-12-20 18:32:43,768: using DenseVNet
+INFO:niftynet:2017-12-20 18:32:48,280: starting from iter -1
+INFO:niftynet:2017-12-20 18:32:48,299: set initial_iter to 5500 based on checkpoints
+INFO:niftynet:2017-12-20 18:32:48,299: Accessing /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-5500 ...
+INFO:niftynet:2017-12-20 18:32:48,299: Restoring parameters from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-5500
+INFO:niftynet:2017-12-20 18:37:53,772: starting segmentation application
+INFO:niftynet:2017-12-20 18:37:53,772: [promise12] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2017-12-20 18:37:53,773: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2017-12-20 18:37:53,776: 
+Number of subjects 1, input section names: ['subject_id', u'promise12', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2017-12-20 18:37:53,779: Image reader: loading [image] from (u'promise12',) (1)
+INFO:niftynet:2017-12-20 18:37:53,780: normalisation histogram reference models ready for image:(u'promise12',)
+INFO:niftynet:2017-12-20 18:37:53,780: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2017-12-20 18:37:53,780: reading size of preprocessed images
+INFO:niftynet:2017-12-20 18:37:53,826: initialised window instance
+INFO:niftynet:2017-12-20 18:37:53,827: buffering with 8 windows
+INFO:niftynet:2017-12-20 18:37:53,833: initialised sampler output {'image': (104, 104, 80, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2017-12-20 18:37:53,918: Filling queues (this can take a few minutes)
+INFO:niftynet:2017-12-20 18:37:53,919: Starting preprocessing threads...
+INFO:niftynet:2017-12-20 18:37:53,919: New thread: 0
+INFO:niftynet:2017-12-20 18:37:53,940: using DenseVNet
+INFO:niftynet:2017-12-20 18:37:58,548: starting from iter -1
+INFO:niftynet:2017-12-20 18:37:58,549: set initial_iter to 5500 based on checkpoints
+INFO:niftynet:2017-12-20 18:37:58,549: Accessing /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-5500 ...
+INFO:niftynet:2017-12-20 18:37:58,550: Restoring parameters from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-5500
+INFO:niftynet:2017-12-20 18:38:21,309: Inference iter 0,  (17.251643s)
+INFO:niftynet:2017-12-20 18:38:21,341: processed all batches.
+INFO:niftynet:2017-12-20 18:38:21,341: Cleaning up...
+INFO:niftynet:2017-12-20 18:38:21,341: stopping sampling threads
+INFO:niftynet:2017-12-20 18:38:21,347: SegmentationApplication stopped (time in second 19.73).
+INFO:niftynet:2017-12-20 18:38:32,104: starting segmentation application
+INFO:niftynet:2017-12-20 18:38:32,104: [promise12] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2017-12-20 18:38:32,105: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2017-12-20 18:38:32,107: 
+Number of subjects 1, input section names: ['subject_id', u'promise12', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2017-12-20 18:38:32,110: Image reader: loading [image] from (u'promise12',) (1)
+INFO:niftynet:2017-12-20 18:38:32,111: normalisation histogram reference models ready for image:(u'promise12',)
+INFO:niftynet:2017-12-20 18:38:32,111: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2017-12-20 18:38:32,111: reading size of preprocessed images
+INFO:niftynet:2017-12-20 18:38:32,116: initialised window instance
+INFO:niftynet:2017-12-20 18:38:32,116: buffering with 8 windows
+INFO:niftynet:2017-12-20 18:38:32,120: initialised sampler output {'image': (104, 104, 80, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2017-12-20 18:38:32,241: Filling queues (this can take a few minutes)
+INFO:niftynet:2017-12-20 18:38:32,241: Starting preprocessing threads...
+INFO:niftynet:2017-12-20 18:38:32,242: New thread: 0
+INFO:niftynet:2017-12-20 18:38:32,245: using DenseVNet
+INFO:niftynet:2017-12-20 18:38:35,602: starting from iter -1
+INFO:niftynet:2017-12-20 18:38:35,603: set initial_iter to 5801 based on checkpoints
+INFO:niftynet:2017-12-20 18:38:35,603: Accessing /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-5801 ...
+INFO:niftynet:2017-12-20 18:38:35,603: Restoring parameters from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-5801
+WARNING:niftynet:2017-12-20 18:38:55,255: File /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/output_dense_vnet9000/01_niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2017-12-20 18:38:56,031: Inference iter 0,  (16.099489s)
+INFO:niftynet:2017-12-20 18:38:56,066: processed all batches.
+INFO:niftynet:2017-12-20 18:38:56,066: Cleaning up...
+INFO:niftynet:2017-12-20 18:38:56,066: stopping sampling threads
+INFO:niftynet:2017-12-20 18:38:56,072: SegmentationApplication stopped (time in second 18.52).
+INFO:niftynet:2018-01-03 09:24:08,530: starting segmentation application
+INFO:niftynet:2018-01-03 09:24:08,538: [promise12] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2018-01-03 09:24:08,582: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2018-01-03 09:24:08,606: 
+Number of subjects 1, input section names: ['subject_id', u'promise12', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2018-01-03 09:24:08,645: Image reader: loading [image] from (u'promise12',) (1)
+INFO:niftynet:2018-01-03 09:24:08,676: normalisation histogram reference models ready for image:(u'promise12',)
+INFO:niftynet:2018-01-03 09:24:08,676: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2018-01-03 09:24:08,678: reading size of preprocessed images
+INFO:niftynet:2018-01-03 09:24:08,801: initialised window instance
+INFO:niftynet:2018-01-03 09:24:08,801: buffering with 8 windows
+INFO:niftynet:2018-01-03 09:24:08,821: initialised sampler output {'image': (104, 104, 80, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2018-01-03 09:24:09,112: Filling queues (this can take a few minutes)
+INFO:niftynet:2018-01-03 09:24:09,113: Starting preprocessing threads...
+INFO:niftynet:2018-01-03 09:24:09,113: New thread: 0
+INFO:niftynet:2018-01-03 09:24:09,148: using DenseVNet
+INFO:niftynet:2018-01-03 09:24:12,605: starting from iter -1
+INFO:niftynet:2018-01-03 09:24:12,614: set initial_iter to 24999 based on checkpoints
+INFO:niftynet:2018-01-03 09:24:12,614: Accessing /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999 ...
+INFO:niftynet:2018-01-03 09:24:12,615: Restoring parameters from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999
+WARNING:niftynet:2018-01-03 09:24:33,911: File /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/output_dense_vnet9000/01_niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2018-01-03 09:24:34,703: Inference iter 0,  (15.566121s)
+INFO:niftynet:2018-01-03 09:24:34,738: processed all batches.
+INFO:niftynet:2018-01-03 09:24:34,738: Cleaning up...
+INFO:niftynet:2018-01-03 09:24:34,738: stopping sampling threads
+INFO:niftynet:2018-01-03 09:24:34,744: SegmentationApplication stopped (time in second 18.15).
+INFO:niftynet:2018-01-03 09:45:12,058: starting segmentation application
+INFO:niftynet:2018-01-03 09:45:12,058: [promise12] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2018-01-03 09:45:12,059: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2018-01-03 09:45:12,061: 
+Number of subjects 1, input section names: ['subject_id', u'promise12', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2018-01-03 09:45:12,064: Image reader: loading [image] from (u'promise12',) (1)
+INFO:niftynet:2018-01-03 09:45:12,065: normalisation histogram reference models ready for image:(u'promise12',)
+INFO:niftynet:2018-01-03 09:45:12,065: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2018-01-03 09:45:12,065: reading size of preprocessed images
+INFO:niftynet:2018-01-03 09:45:12,071: initialised window instance
+INFO:niftynet:2018-01-03 09:45:12,071: buffering with 8 windows
+INFO:niftynet:2018-01-03 09:45:12,076: initialised sampler output {'image': (104, 104, 80, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2018-01-03 09:45:12,216: Filling queues (this can take a few minutes)
+INFO:niftynet:2018-01-03 09:45:12,216: Starting preprocessing threads...
+INFO:niftynet:2018-01-03 09:45:12,217: New thread: 0
+INFO:niftynet:2018-01-03 09:45:12,220: using DenseVNet
+INFO:niftynet:2018-01-03 09:45:15,602: starting from iter -1
+INFO:niftynet:2018-01-03 09:45:15,604: set initial_iter to 24999 based on checkpoints
+INFO:niftynet:2018-01-03 09:45:15,604: Accessing /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999 ...
+INFO:niftynet:2018-01-03 09:45:15,604: Restoring parameters from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999
+WARNING:niftynet:2018-01-03 09:45:35,159: File /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/output_dense_vnet9000/01_niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2018-01-03 09:45:35,954: Inference iter 0,  (16.010242s)
+INFO:niftynet:2018-01-03 09:45:35,987: processed all batches.
+INFO:niftynet:2018-01-03 09:45:35,987: Cleaning up...
+INFO:niftynet:2018-01-03 09:45:35,987: stopping sampling threads
+INFO:niftynet:2018-01-03 09:45:35,994: SegmentationApplication stopped (time in second 18.47).
+INFO:niftynet:2018-01-03 09:46:44,538: starting segmentation application
+INFO:niftynet:2018-01-03 09:46:44,538: [promise12] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2018-01-03 09:46:44,539: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2018-01-03 09:46:44,541: 
+Number of subjects 1, input section names: ['subject_id', u'promise12', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2018-01-03 09:46:44,544: Image reader: loading [image] from (u'promise12',) (1)
+INFO:niftynet:2018-01-03 09:46:44,545: normalisation histogram reference models ready for image:(u'promise12',)
+INFO:niftynet:2018-01-03 09:46:44,545: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2018-01-03 09:46:44,545: reading size of preprocessed images
+INFO:niftynet:2018-01-03 09:46:44,552: initialised window instance
+INFO:niftynet:2018-01-03 09:46:44,552: buffering with 8 windows
+INFO:niftynet:2018-01-03 09:46:44,557: initialised sampler output {'image': (104, 104, 80, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2018-01-03 09:46:44,699: Filling queues (this can take a few minutes)
+INFO:niftynet:2018-01-03 09:46:44,700: Starting preprocessing threads...
+INFO:niftynet:2018-01-03 09:46:44,700: New thread: 0
+INFO:niftynet:2018-01-03 09:46:44,703: using DenseVNet
+INFO:niftynet:2018-01-03 09:46:48,130: starting from iter -1
+INFO:niftynet:2018-01-03 09:46:48,132: set initial_iter to 24999 based on checkpoints
+INFO:niftynet:2018-01-03 09:46:48,132: Accessing /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999 ...
+INFO:niftynet:2018-01-03 09:46:48,132: Restoring parameters from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999
+WARNING:niftynet:2018-01-03 09:47:06,130: User cancelled application
+INFO:niftynet:2018-01-03 09:47:06,130: Cleaning up...
+WARNING:niftynet:2018-01-03 09:47:06,130: stopped early, incomplete loops
+INFO:niftynet:2018-01-03 09:47:06,130: stopping sampling threads
+INFO:niftynet:2018-01-03 09:47:06,138: SegmentationApplication stopped (time in second 16.07).
+INFO:niftynet:2018-01-03 09:54:08,646: starting segmentation application
+INFO:niftynet:2018-01-03 09:54:08,646: [abdominal] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2018-01-03 09:54:08,647: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2018-01-03 09:54:08,649: 
+Number of subjects 1, input section names: ['subject_id', u'abdominal', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2018-01-03 09:54:08,652: Image reader: loading [image] from (u'abdominal',) (1)
+INFO:niftynet:2018-01-03 09:54:08,652: training normalisation histogram references for image:set([u'abdominal']), using 1 subjects
+WARNING:niftynet:2018-01-03 09:54:26,537: moved existing histogram reference file
+ from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/histogram1.txt to /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/histogram1.txt.backup
+INFO:niftynet:2018-01-03 09:54:26,537: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2018-01-03 09:54:26,537: reading size of preprocessed images
+INFO:niftynet:2018-01-03 09:54:26,540: initialised window instance
+INFO:niftynet:2018-01-03 09:54:26,540: buffering with 8 windows
+INFO:niftynet:2018-01-03 09:54:26,547: initialised sampler output {'image': (104, 104, 80, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2018-01-03 09:54:26,690: Filling queues (this can take a few minutes)
+INFO:niftynet:2018-01-03 09:54:26,691: Starting preprocessing threads...
+INFO:niftynet:2018-01-03 09:54:26,691: New thread: 0
+INFO:niftynet:2018-01-03 09:54:26,694: using DenseVNet
+INFO:niftynet:2018-01-03 09:54:30,292: starting from iter -1
+INFO:niftynet:2018-01-03 09:54:30,294: set initial_iter to 24999 based on checkpoints
+INFO:niftynet:2018-01-03 09:54:30,294: Accessing /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999 ...
+INFO:niftynet:2018-01-03 09:54:30,294: Restoring parameters from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999
+INFO:niftynet:2018-01-03 09:54:52,017: Inference iter 0,  (16.969428s)
+INFO:niftynet:2018-01-03 09:54:52,065: processed all batches.
+INFO:niftynet:2018-01-03 09:54:52,065: Cleaning up...
+INFO:niftynet:2018-01-03 09:54:52,065: stopping sampling threads
+INFO:niftynet:2018-01-03 09:54:52,071: SegmentationApplication stopped (time in second 19.83).
+INFO:niftynet:2018-01-03 10:55:08,012: starting segmentation application
+INFO:niftynet:2018-01-03 10:55:08,012: [abdominal] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2018-01-03 10:55:08,013: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2018-01-03 10:55:08,016: 
+Number of subjects 4, input section names: ['subject_id', u'abdominal', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2018-01-03 10:55:08,093: Image reader: loading [image] from (u'abdominal',) (4)
+INFO:niftynet:2018-01-03 10:55:08,094: normalisation histogram reference models ready for image:(u'abdominal',)
+INFO:niftynet:2018-01-03 10:55:08,094: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2018-01-03 10:55:08,095: reading size of preprocessed images
+INFO:niftynet:2018-01-03 10:55:08,104: initialised window instance
+INFO:niftynet:2018-01-03 10:55:08,104: buffering with 8 windows
+INFO:niftynet:2018-01-03 10:55:08,112: initialised sampler output {'image': (104, 104, 80, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2018-01-03 10:55:08,287: Filling queues (this can take a few minutes)
+INFO:niftynet:2018-01-03 10:55:08,288: Starting preprocessing threads...
+INFO:niftynet:2018-01-03 10:55:08,288: New thread: 0
+INFO:niftynet:2018-01-03 10:55:08,290: using DenseVNet
+INFO:niftynet:2018-01-03 10:55:11,784: starting from iter -1
+INFO:niftynet:2018-01-03 10:55:11,785: set initial_iter to 24999 based on checkpoints
+INFO:niftynet:2018-01-03 10:55:11,785: Accessing /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999 ...
+INFO:niftynet:2018-01-03 10:55:11,786: Restoring parameters from /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/models/model.ckpt-24999
+WARNING:niftynet:2018-01-03 10:55:32,281: File /home/alemh/NiftyNet-dev-3b7b7f39471329bf32d05866053296e561e3ccaa/trainingab_MODEL/output_dense_vnet25000/01_niftynet_out.nii.gz exists, overwriting the file.
+INFO:niftynet:2018-01-03 10:55:33,090: Inference iter 0,  (16.703830s)
+INFO:niftynet:2018-01-03 10:55:55,744: Inference iter 1,  (19.728571s)
+INFO:niftynet:2018-01-03 10:56:46,562: Inference iter 2,  (46.335313s)
+INFO:niftynet:2018-01-03 10:57:00,180: Inference iter 3,  (11.494676s)
+INFO:niftynet:2018-01-03 10:57:00,220: processed all batches.
+INFO:niftynet:2018-01-03 10:57:00,220: Cleaning up...
+INFO:niftynet:2018-01-03 10:57:00,220: stopping sampling threads
+INFO:niftynet:2018-01-03 10:57:00,226: SegmentationApplication stopped (time in second 106.36).
+INFO:niftynet:2018-02-16 08:45:07,153: starting segmentation application
+INFO:niftynet:2018-02-16 08:45:07,178: [abdominal] using existing csv file demos/TrainingAb/file_list.csv, skipped filenames search
+INFO:niftynet:2018-02-16 08:45:07,221: [label] using existing csv file demos/TrainingAb/file_list_seg.csv, skipped filenames search
+INFO:niftynet:2018-02-16 08:45:07,235: 
+Number of subjects 1, input section names: ['subject_id', u'abdominal', u'label']
+-- using all subjects (without data partitioning).
+
+INFO:niftynet:2018-02-16 08:45:07,258: Image reader: loading [image] from (u'abdominal',) (1)
+INFO:niftynet:2018-02-16 08:45:07,281: normalisation histogram reference models ready for image:(u'abdominal',)
+INFO:niftynet:2018-02-16 08:45:07,281: label mapping ready for label:(u'label',), 14 classes
+INFO:niftynet:2018-02-16 08:45:07,282: reading size of preprocessed images
+INFO:niftynet:2018-02-16 08:45:07,495: initialised window instance
+INFO:niftynet:2018-02-16 08:45:07,495: buffering with 8 windows
+INFO:niftynet:2018-02-16 08:45:07,502: initialised sampler output {'image': (8, 8, 8, 1, 1)}  [-1 for dynamic size]
+INFO:niftynet:2018-02-16 08:45:07,786: Filling queues (this can take a few minutes)
+INFO:niftynet:2018-02-16 08:45:07,786: Starting preprocessing threads...
+INFO:niftynet:2018-02-16 08:45:07,787: New thread: 0
+INFO:niftynet:2018-02-16 08:45:07,858: using DenseVNet
+INFO:niftynet:2018-02-16 08:45:12,103: starting from iter -1
+INFO:niftynet:2018-02-16 08:45:12,120: set initial_iter to 24500 based on checkpoints
+INFO:niftynet:2018-02-16 08:45:12,120: Accessing /home/alemh/NIF/trainingab_MODEL/models/model.ckpt-24500 ...
+INFO:niftynet:2018-02-16 08:45:12,120: Restoring parameters from /home/alemh/NIF/trainingab_MODEL/models/model.ckpt-24500
+CRITICAL:niftynet:2018-02-16 08:45:16,358: checkpoint /home/alemh/NIF/trainingab_MODEL/models/model.ckpt-24500 not found or variables to restore do not match the current application graph

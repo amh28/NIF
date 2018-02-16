@@ -1,0 +1,82 @@
+Input params at 2018-02-16 08:45:07.
+[CONFIG_FILE]
+-- path: demos/TrainingAb/ab_train_and_inference.ini
+[ABDOMINAL]
+-- spatial_window_size: (8, 8, 8)
+-- pixdim: (1.0, 1.0, 1.0)
+-- csv_file: demos/TrainingAb/file_list.csv
+-- axcodes: (u'A', u'R', u'S')
+-- filename_contains: None
+-- filename_not_contains: ()
+-- interp_order: 3
+[LABEL]
+-- spatial_window_size: (8, 8, 8)
+-- pixdim: (1.0, 1.0, 1.0)
+-- csv_file: demos/TrainingAb/file_list_seg.csv
+-- axcodes: (u'A', u'R', u'S')
+-- filename_contains: None
+-- filename_not_contains: ()
+-- interp_order: 0
+[CUSTOM]
+-- min_numb_labels: 2
+-- name: net_segment
+-- weight: ()
+-- min_sampling_ratio: 1e-06
+-- label: (u'label',)
+-- output_prob: False
+-- sampler: ()
+-- label_normalisation: True
+-- image: (u'abdominal',)
+-- num_classes: 14
+[TRAINING]
+-- rotation_angle: (-10.0, 10.0)
+-- loss_type: Dice
+-- sample_per_volume: 4
+-- tensorboard_every_n: 20
+-- validation_max_iter: 1
+-- max_iter: 26000
+-- save_every_n: 500
+-- max_checkpoints: 50
+-- exclude_fraction_for_inference: 0.0
+-- optimiser: adam
+-- random_flipping_axes: (1,)
+-- lr: 0.0005
+-- rotation_angle_z: ()
+-- rotation_angle_y: ()
+-- rotation_angle_x: ()
+-- scaling_percentage: (-10.0, 10.0)
+-- starting_iter: 0
+-- exclude_fraction_for_validation: 0.0
+-- validation_every_n: -1
+[NETWORK]
+-- cutoff: (0.01, 0.99)
+-- multimod_foreground_type: and
+-- volume_padding_size: (0, 0, 0)
+-- weight_initializer: he_normal
+-- name: dense_vnet
+-- decay: 0
+-- activation_function: prelu
+-- normalise_foreground_only: True
+-- histogram_ref_file: histogram1.txt
+-- batch_size: 1
+-- norm_type: percentile
+-- foreground_type: otsu_plus
+-- window_sampling: resize
+-- whitening: True
+-- reg_type: L2
+-- bias_initializer: zeros
+-- queue_length: 8
+-- normalisation: True
+[INFERENCE]
+-- border: (0, 0, 0)
+-- output_interp_order: 0
+-- inference_iter: -1
+-- save_seg_dir: output_dense_vnet5/
+-- spatial_window_size: (8, 8, 8)
+[SYSTEM]
+-- cuda_devices: ""
+-- num_gpus: 1
+-- num_threads: 4
+-- dataset_split_file: ./dataset_split.csv
+-- model_dir: /home/alemh/NIF/trainingab_MODEL
+-- action: inference
